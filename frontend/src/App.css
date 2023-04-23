@@ -1,0 +1,209 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.nav-ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 15px;
+
+}
+
+.nav-ul li {
+  list-style: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.nav-ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1px;
+  position: fixed;
+  bottom: 0px;
+  height: 10%;
+  width: 100%;
+  align-items: center;
+  padding: 5px;
+}
+
+.signup,
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  width: 0%;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  background-color: blue;
+  width: 40%;
+  margin: auto;
+  margin-top: 6%;
+
+  border: 2px solid black;
+  border-radius: 10px;
+  ;
+}
+
+.signup h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+input {
+  padding: 0.8rem 1rem;
+  border-radius: 0.4rem;
+  border: 1px solid #ddd;
+  margin-bottom: 1rem;
+  width: 70%;
+  font-size: 1.2rem;
+}
+
+.button1 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 0.8rem 1rem;
+  border: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  width: 40%;
+  font-size: 1.2rem;
+  margin-bottom: 10%;
+}
+
+button:hover {
+  background-color: #7e3e8e;
+}
+
+.nav-ul.right {
+  text-align: right;
+}
+
+.logo {
+  width: 10%;
+  height: 6%;
+  float: left;
+}
+
+.add {
+  margin: -143%;
+}
+
+.log {
+  margin: 2%;
+}
+
+/* css for add product */
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #9eacca;
+  height: 80vh;
+  width: 60vw;
+  margin: 12px auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .product {
+    height: auto;
+  }
+}
+
+.inputBox {
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  font-size: 18px;
+}
+
+.appButton {
+  margin: 20px;
+  padding: 10px 20px;
+  background-color: #F3722C;
+  border: none;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.appButton:hover {
+  background-color: hsl(0, 84%, 57%);
+}
+.invalid-input{
+  color:red;
+}
+/* productlist */
+.product-list{
+  text-align: center;
+  /* width: 60vw; */
+  /* margin:15px; */
+  /* background-color: #4CAF50; */
+  background-color: #efebf0;
+}
+.product-list ul li{
+  display: inline-block;
+  width: 150px;
+  padding: 5px;
+  border: 1px solid black;
+  margin: 0px;
+  background-color: #e9e5e2;
+  
+ 
+}
+.product-list ul{
+  margin: 0px;
+}
+.product-list{
+  margin:50px;
+  /* height: 60vh; */
+  max-height: 400px; /* set the maximum height of the container */
+  overflow-y: auto; 
+  border:2px solid black;
+  width: 90vw;
+}
+/* update */
+.update{
+  margin-left: 8px;
+}
+.op{
+  margin: 40px;
+}
+.product-list ul li {
+  display: inline-block;
+  width: 150px;
+  padding: 5px;
+  border: 0.4px solid rgb(211, 201, 201);
+  margin: 0px;
+  background-color: #e9e5e2;
+  margin-top: -1px; /* add negative margin-right to remove border gap */
+}
+
+.product-list ul li:last-child {
+  margin-right: 0px; /* remove negative margin-right for last li */
+}
+.nav2{
+  height: 6vh;
+}
